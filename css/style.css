@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,div,dl,dt,dd,table,tr,td,form,p,label,em,strong,b,input,select,option,textarea,ul,li,a,span{ margin:0; padding:0}
+li{ list-style:none}
+a{ color:#3c3c3c; text-decoration:none}
+a:hover{ }
+img{ border:0; vertical-align:top;}
+body{ font-family:"微软雅黑"; font-size:14px; background:#FFF; min-width:1260px; color:#FFF}
+.clearfix{ *zoom:1}
+.clearfix:after{ content:"."; display:block; visibility:hidden; clear:both; height:0; font-size:0}
+
+.main{ width:1200px; height:auto; margin:0 auto; background:#002436 }
+.top1{ width:209px; height:63px; background:#FFF}
+.top2{ width:100%; height:251px;}
+.top2-left{ float:left; width:82px; height:145px; background:#FFF}
+.top2-middle{ float:left; width:250px; height:251px; background:#FFF; border-radius:0 125px 125px 125px; position:relative}
+.person{ position:absolute; width:230px; height:230px; top:13px; left:9px; border-radius:125px; background:url(../images/1.jpg) -80px 0}
+.top2-right{ float:left; width:868px; height:100%}
+.name{ width:321px; height:102px; float:left; margin-top:73px}
+.name p{ width:100%; height:61px; line-height:61px; text-indent:1em; font-size:50px; border-bottom:2px solid #9bacb3}
+.name span{ display:block; line-height:39px; text-indent:2em; font-size:20px}
+.message{ float:right; margin-right:56px}
+.message li{ background:url(../images/pic.png) no-repeat 225px 4px  ; width:210px; height:40px; line-height:43px; text-align:right; color:#FFF; margin-bottom:3px; padding-right:43px; font-size:21px}
+.message .m2{ background:url(../images/pic.png) no-repeat 225px -37px}
+.message .m3{ background:url(../images/pic.png) no-repeat 225px -81px}
+.message .m4{ background:url(../images/pic.png) no-repeat 225px -124px}
+.middle{ width:100%; height:auto; padding-top:63px;}
+.middle-left{ float:left; width:361px; height:auto; margin-top:63px}
+.middle-left p{  width:242px; height:42px; margin-top:33px; margin-left:101px; border:1px solid #a1b4ba; color:#002436; background:#FFF; font-size:24px; line-height:42px; padding-left:17px}
+.middle-left span{ display:block; margin-top:30px; width:300px; font-size:21px; line-height:35px; margin-left:38px}
+.middle-right{ float:left; width:838px; height:auto; border-left:1px solid #cbd7da; background:#FFF; padding-top:63px; padding-bottom:16px}
+.middle-right p{ width:201px; height:42px; margin-top:33px; border:1px solid #9baaaf; border-left:0; font-size:24px; line-height:42px; padding-left:58px; background:#002436}
+.middle-right dl{ margin:15px 0 0 56px; width:726px; height:auto; padding-bottom:10px}
+.middle-right dt{ color:#002436; font-size:21px; line-height:21px; font-weight:bold}
+.middle-right dt span { font-weight:100}
+.middle-right dt i { display: inline-block; margin-right:117px; font-style:normal}
+.middle-right dd{ width:100%; height:auto; line-height:30px; color:#5e5e5e; font-size:20.5px; margin-top:9px;}
+.middle-left ul{ margin:44px 0 0 42px; }
+.middle-left li{ position:relative; width:273px; height:32px; background:url(../images/pic.png) no-repeat 0 -167px; padding-left:23px; line-height:32px; font-size:20px; margin-bottom:44px}
+.skill{ position:absolute; width:143px; height:13px; background:#FFF; top:10px; right:6px }
+.skill-1{ position:absolute; width:50px; height:13px; background:#005b87; top:0; right:0;}
+.skill-2{ width:63px;}
+.skill-3{ width:76px;}
+.skill-4{ width:52px;}
+.skill-5{ width:61px;}
+.skill-6{ width:85px;}
+.middle-right dd span{ display:inline-block;width:13px; height:13px; background:#626262; border-radius:10px; margin-right:29px}
+.hobby{ width:223px; height:auto; margin:50px 0 0 59px; font-size:22px}
+.hobby-1{ float:left; width:86px; height:39px; background:url(../images/pic.png) 18px -198px no-repeat; padding-top:61px; line-height:39px; text-align:center; margin-bottom:14px}
+.hobby-2{background:url(../images/pic.png) -55px -198px no-repeat ; margin-left:50px}
+.hobby-3{background:url(../images/pic.png) -136px -200px no-repeat ;}
+.hobby-4{background:url(../images/pic.png) -230px -200px no-repeat ; margin-left:50px}
+.middle-right .awards{ float:left; width:350px;}
+.awards-1{color:#002436; font-size:21px; line-height:21px; font-weight:bold }
+.level{float:left; margin-left:56px;color:#002436; font-size:21px; font-weight:bold; height:34px; line-height:34px; margin-top:37px; padding-bottom:17px }
+.level span{ color:#ededed}
+.hidden{ width:101%; overflow:hidden}
+.level li{ float:left; width:238px; height:26px; color:#505050; font-weight:100 ; position:relative; line-height:20px; margin-right:23px}
+.level-1{ width:171px; height:12px; background:#002436; position:absolute; top:7px; right:0}
+.level-2{ width:28px; height:12px; background:#d2d2d2; position:absolute; top:0; right:0}
+.level-3{ width:35px} 
+.level-4{ width:50px} 
+
+
+
+
+
+
+
